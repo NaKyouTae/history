@@ -1,60 +1,98 @@
+@import url(./icon.css);
+
 body {
-  padding: 40px;
+  margin: 0px auto;
+  max-width: 40%;
 }
 
 li {
   list-style: none;
 }
 
-h2 {
-  color: skyblue;
+a {
+  color: black;
 }
 
 .section {
+  padding: 20px 0px;
   border-bottom: 2px dashed darkgray;
+}
+
+.title {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+  color: #017bdf;
+  margin-bottom: 20px;
+  background-color: #eaeaeb;
+  padding: 5px 20px;
 }
 
 .header > div {
   display: inline-block;
 }
 
-.header > .header-img {
-  width: 10%;
+.header {
+  padding: 40px 0px 20px 0px;
 }
 
-.header > .header-contents {
-  font-size: 17px;
-}
-
-.header > .header-contents > li {
+.header-img {
   display: inline-block;
+  width: 20%;
+}
+
+.header-contents {
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+  padding-left: 50px;
 }
 
 .contents-title {
+  margin-bottom: 15px;
+}
+
+.contents-info {
+  margin: 5px 0px;
+}
+
+.contents-info > div {
+  vertical-align: top;
+}
+
+.bold {
   font-weight: bold;
 }
 
-.icon {
-  width: 20px;
-  height: 20px;
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+.gray {
+  color: darkgray;
 }
 
-.inline {
+.stack > div {
+  margin: 10px 0px;
+}
+
+.info {
   display: inline-block;
+  width: 25%;
+  vertical-align: top;
 }
 
-.email {
-  background-image: url("../img/email.png");
+.info > div:first-child {
+  margin-top: 10px;
 }
-.phone {
-  background-image: url("../img/phone.png");
+
+.history {
+  display: inline-block;
+  width: 73%;
+  vertical-align: top;
 }
-.blog {
-  background-image: url("../img/blog.png");
+
+.history > div {
+  margin: 10px 0px;
 }
-.github {
-  background-image: url("../img/github.png");
+
+.section-last {
+  border-bottom: none;
+  margin-bottom: 70px;
 }
