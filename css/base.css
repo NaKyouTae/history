@@ -13,6 +13,12 @@ a {
   color: black;
 }
 
+.main-title {
+  font-weight: bold;
+  font-size: 40px;
+  padding-top: 30px;
+}
+
 .section {
   padding: 20px 0px;
   border-bottom: 2px dashed darkgray;
