@@ -1,8 +1,8 @@
 @import url(./icon.css);
+@import url(./media.css);
 
 body {
   margin: 0px auto;
-  max-width: 40%;
 }
 
 li {
@@ -11,6 +11,10 @@ li {
 
 a {
   color: black;
+}
+
+.container {
+  margin: 0px auto;
 }
 
 .main-title {
