@@ -1,0 +1,60 @@
+body {
+  padding: 40px;
+}
+
+li {
+  list-style: none;
+}
+
+h2 {
+  color: skyblue;
+}
+
+.section {
+  border-bottom: 2px dashed darkgray;
+}
+
+.header > div {
+  display: inline-block;
+}
+
+.header > .header-img {
+  width: 10%;
+}
+
+.header > .header-contents {
+  font-size: 17px;
+}
+
+.header > .header-contents > li {
+  display: inline-block;
+}
+
+.contents-title {
+  font-weight: bold;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.email {
+  background-image: url("../img/email.png");
+}
+.phone {
+  background-image: url("../img/phone.png");
+}
+.blog {
+  background-image: url("../img/blog.png");
+}
+.github {
+  background-image: url("../img/github.png");
+}
