@@ -2,9 +2,16 @@
 @import url(./media.css);
 @import url(./icon.css);
 
-html {font-family: "Gowun Batang", serif; font-size: 15px;}
-li {list-style: none;}
-a {color: black;}
+html {
+  font-family: "Gowun Batang", serif;
+  font-size: 15px;
+}
+li {
+  list-style: none;
+}
+a {
+  color: black;
+}
 
 .container {
   margin: 0px auto;
@@ -32,23 +39,27 @@ a {color: black;}
   background-color: #eaeaeb;
 }
 
-/* .header > div {
+.header > div {
   display: inline-block;
-} */
+}
 
-/* .header {
+.header {
   padding: 30px 0px 20px 0px;
-} */
+}
 
-/* .header-img {
+.header-img {
   width: 20%;
+}
+
+.header-img > img {
+  width: 100%;
 }
 
 .header-contents {
   vertical-align: top;
-  width: 80%;
+  width: 70%;
   padding-left: 5%;
-} */
+}
 
 .contents-title {
   margin-bottom: 10px;
@@ -58,18 +69,22 @@ a {color: black;}
   margin: 1% 0px;
 }
 
-/* .contents-info > div {
+.contents-info > div {
   vertical-align: top;
-} */
+}
 
-.bold {font-weight: bold;}
-.gray {color: darkgray;}
+.bold {
+  font-weight: bold;
+}
+.gray {
+  color: darkgray;
+}
 
 .stack > div {
   margin: 1% 0px;
 }
 
-/* .info {
+.info {
   display: inline-block;
   width: 25%;
   vertical-align: top;
@@ -87,6 +102,4 @@ a {color: black;}
 
 .history > div {
   margin: 10px 0px;
-} */
-
-
+}

@@ -1,10 +1,10 @@
-/* .icon {
+.icon {
   width: 20px;
   height: 20px;
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-} */
+}
 .inline {
   display: inline-block;
 }
@@ -20,9 +20,9 @@
 .icon-github {
   background-image: url("../img/github.png");
 }
-/* .icon-point {
+.icon-point {
   width: 7px;
   height: 7px;
   margin-right: 10px;
   background-image: url("../img/point.png");
-} */
+}
