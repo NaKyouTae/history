@@ -1,5 +1,11 @@
-@import url(./icon.css);
+@import url(./font.css);
 @import url(./media.css);
+@import url(./icon.css);
+
+html {
+  /* font-family: "Black Han Sans", sans-serif; */
+  font-family: "Gowun Batang", serif;
+}
 
 body {
   margin: 0px auto;
