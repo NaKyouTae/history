@@ -1,4 +1,4 @@
-$(document).ready(function() {
+document.addEventListener("DOMContentLoaded", function(){
     // tab menu
     $('.tab-menu li').click(function() {
         const tab_id = $(this).attr('data-tab');
