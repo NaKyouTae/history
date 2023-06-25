@@ -20,4 +20,21 @@ document.addEventListener("DOMContentLoaded", function(){
         $(this).addClass('active');
         $('#'+tab_id).addClass('active');
     });
+
+    // floating button 
+    $(window).scroll(function() {
+        const scroll_position = $(window).scrollTop();
+        if (scroll_position > 100) {
+            $('.floating-wrap').addClass('up');
+
+            const deg = scroll_position - 100;
+            $('.floating-wrap .going-up').css('transform', 'rotate(' + deg + 'deg)')
+        } else {
+            $('.floating-wrap').removeClass('up');
+        }
+    });
+
+    $('.floating-wrap .going-up').click(function(){
+        $('html, body').animate({scrollTop : 0}, 300);
+    });
 });
