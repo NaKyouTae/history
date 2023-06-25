@@ -15,7 +15,6 @@ html, body {
     font-family: 'Poppins', 'Pretendard', -apple-system, BlinkMacSystemFont, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji!important;
     font-size: 62.5%; /* 1rem = 1rem */
     font-weight: 400;
-    letter-spacing: -.02rem;
     color: var(--black);
     /* smoothing font */
     -moz-osx-font-smoothing: grayscale;
@@ -153,9 +152,17 @@ button {font-size: 1.6rem; width: fit-content; height: fit-content; border: 0; b
 .box + .box {margin-top: 3rem;}
 .box > p {font-size: 1.4rem; line-height: 1.6;}
 
+@media screen and (max-width: 767px) {
+    .box > p {font-size: 1.6rem;}
+}
+
 /* title */
 .title {display: flex; align-items: center; justify-content: space-between;}
 .title > h4 {font-size: 1.8rem; font-weight: 600;}
+
+@media screen and (max-width: 767px) {
+    .title > h4 {font-size: 2rem;}
+}
 
 /* tab menu */
 .tab-menu {width: 100%; padding: .4rem; margin-bottom: 3rem; border-radius: .6rem; background-color: var(--gray100); display: flex; align-items: center; column-gap: .4rem;}
@@ -172,3 +179,7 @@ button {font-size: 1.6rem; width: fit-content; height: fit-content; border: 0; b
 
 .sort-cont {display: none;}
 .sort-cont.active {display: block;}
+
+@media screen and (max-width: 767px) {
+    .tab-sort > li {font-size: 1.4rem;}
+}
