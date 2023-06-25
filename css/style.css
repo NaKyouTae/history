@@ -24,7 +24,7 @@
 .container {max-width: 76.8rem; width: 100%; min-height: 100%; padding: 4rem; margin: 0 auto; display: flex; flex-flow: column;}
 
 .header {width: 100%; display: flex; justify-content: space-between;}
-.header > h1 {font-size: 2.4rem; font-weight: 600; line-height: 1.4;}
+.header > h1 {font-size: 2.8rem; font-weight: 600; line-height: 1.4;}
 .header > button {color: var(--yellow);}
 
 .footer {margin-top: 10rem; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; color: var(--gray300);}
@@ -33,8 +33,6 @@
 
 @media screen and (max-width: 767px) {
     .container {padding: 4rem 2.4rem;}
-
-    .header > h1 {font-size: 2.8rem;}
 
     .contents {margin-top: 4rem;}
 }
@@ -59,55 +57,52 @@
 .history-wrap > div:last-child > div::before {height: calc(100% - .8rem - .6rem);}
 .history-wrap > div > div .info {display: flex; flex-flow: column; row-gap: .8rem;}
 .history-wrap > div > div .info > p {font-size: 1.4rem; color: var(--gray400);}
-.history-wrap > div > div .info > h4 {font-size: 1.8rem; font-weight: 600; display: flex; align-items: center; column-gap: .6rem;}
-.history-wrap > div > div .info > h4 .desktop_only {display: block;}
-.history-wrap > div > div > p {font-size: 1.4rem; line-height: 1.4; word-break: keep-all;}
+.history-wrap > div > div .info > h4 {font-size: 2.2rem; font-weight: 600; display: flex; align-items: center; column-gap: .8rem;}
+.history-wrap > div > div .info > h4 .desktop-only {display: block;}
+.history-wrap > div > div > p {font-size: 1.6rem; line-height: 1.6; word-break: keep-all;}
 .history-wrap > div > div .desc {width: 100%; padding: 1.6rem 2rem; border-radius: .6rem; background-color: var(--gray100);}
-.history-wrap > div > div .desc h4,
-.history-wrap > div > div .desc h6 {font-size: 1.4rem; font-weight: 600;}
+.history-wrap > div > div .desc h4 {font-size: 1.6rem; font-weight: 600; line-height: 1.6; word-break: keep-all;}
+.history-wrap > div > div .desc h6 {font-size: 1.4rem; font-weight: 600; line-height: 1.6; word-break: keep-all;}
 .history-wrap > div > div .desc h4 + * {margin-top: 2rem;}
-.history-wrap > div > div .desc h6 + * {margin-top: 1rem;}
-.history-wrap > div > div .desc p {font-size: 1.4rem; line-height: 1.4;}
-.history-wrap > div > div .desc p + * {margin-top: 2rem;}
+.history-wrap > div > div .desc h6 + * {margin-top: .2rem;}
 .history-wrap > div > div .desc ul {display: flex; flex-flow: column; row-gap: .6rem;}
 .history-wrap > div > div .desc ul + * {margin-top: 2rem;}
 .history-wrap > div > div .desc ul > li {display: flex; column-gap: .8rem;}
 .history-wrap > div > div .desc ul > li::before {content: ''; display: block; width: .4rem; height: .4rem; border-radius: 100%; background-color: var(--black); position: relative; top: .8rem;}
 .history-wrap > div > div .desc ul > li > p {width: calc(100% - .4rem - .8rem); font-size: 1.4rem; line-height: 1.4; word-break: keep-all;}
+.history-wrap > div > div .desc ul > li > a {width: calc(100% - .4rem - .8rem); font-size: 1.4rem; word-break: break-all; line-height: 1.4; text-decoration: underline; cursor: pointer;}
+.history-wrap > div > div .desc ul > li > p > a {font-size: 1.4rem; line-height: 1.4; word-break: break-all; text-decoration: underline; cursor: pointer;}
 
 @media screen and (max-width: 767px) {
     .history-wrap > div > p {display: none;}
     .history-wrap > div > div {width: 100%;}
     .history-wrap > div > div::before {content: none;}
-    .history-wrap > div > div .info > h4 {font-size: 2.2rem;}
-    .history-wrap > div > div .info > h4 .desktop_only {display: block;}
-    .history-wrap > div > div .info > h4 > i {width: 1.2rem; height: 1.2rem;}
-    .history-wrap > div > div > p {font-size: 1.6rem; line-height: 1.6;}
+    .history-wrap > div > div .info > h4 .desktop-only {display: none;}
+    .history-wrap > div > div > p {font-size: 1.rem;}
     .history-wrap > div > div .desc {padding: 2rem;}
     .history-wrap > div > div .desc h4,
-    /* .history-wrap > div > div .desc h6 {font-size: 1.6rem; font-weight: 600;}
-    .history-wrap > div > div .desc h4 + * {margin-top: 2rem;}
-    .history-wrap > div > div .desc h6 + * {margin-top: 1rem;}
-    .history-wrap > div > div .desc p {font-size: 1.4rem; line-height: 1.4;}
-    .history-wrap > div > div .desc p + * {margin-top: 2rem;} */
+    .history-wrap > div > div .desc h6 {font-size: 1.8rem;}
     .history-wrap > div > div .desc ul {row-gap: .2rem;}
     .history-wrap > div > div .desc ul > li::before {top: 1rem;}
     .history-wrap > div > div .desc ul > li > p {font-size: 1.6rem; line-height: 1.6;}
+    .history-wrap > div > div .desc ul > li > a {font-size: 1.6rem; line-height: 1.6;}
+    .history-wrap > div > div .desc ul > li > p > a {font-size: 1.6rem; line-height: 1.6;}
 }
 
 .tech-stack {display: flex; flex-wrap: wrap; align-items: center; grid-gap: 1rem;}
 .tech-stack > li {display: flex; align-items: center; justify-content: center; height: 2.8rem; padding: 0 1rem; font-size: 1.4rem; font-weight: 500; color: var(--gray300); background-color: var(--gray100); border-radius: .4rem;}
 .tech-stack > li.type {background-color: var(--blue); color: var(--white);}
 
-
-.intro-wrap {display: flex; flex-flow: column; row-gap: 2rem;}
+.intro-wrap {display: flex; flex-flow: column; row-gap: 3rem;}
 .intro-wrap > div {display: flex; flex-flow: column; row-gap: 1rem;}
 .intro-wrap > div > h6 {font-size: 1.6rem; font-weight: 500;}
 .intro-wrap > div > p {font-size: 1.4rem; line-height: 1.6; word-break: keep-all;}
-.intro-wrap > div > ul {display: flex; align-items: center; justify-content: flex-end; column-gap: 1rem;}
+.intro-wrap > div > ul {display: flex; align-items: center; justify-content: flex-end; column-gap: .6rem;}
 .intro-wrap > div > ul > li {height: 2.2rem; display: flex; align-items: center; justify-content: center; padding: 0 .6rem; border: 1px solid var(--blue); border-radius: .4rem; font-size: 1.2rem; font-weight: 500; color: var(--blue);}
 
 @media screen and (max-width: 767px) {
     .intro-wrap > div > h6 {font-size: 1.8rem;}
     .intro-wrap > div > p {font-size: 1.6rem;}
+    
+    .intro-wrap > div > ul > li {height: 2.4rem; font-size: 1.4rem;}
 }
