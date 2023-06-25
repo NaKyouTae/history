@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", function(){
 
         $(this).addClass('active');
         $('#'+tab_id).addClass('active');
+
+      window.scrollBy( 0, $('#'+tab_id)[0].getBoundingClientRect().top-80);
     });
 
     // sub tab
