@@ -131,8 +131,13 @@ a:focus {
 
 @media (prefers-color-scheme: dark) {
     :root {
+
         --black: #FDFDFE;
         --white: #1E1E20;
+
+        --gray400: #E4E4E4;
+        --gray200: #4F4F4F;
+        --gray100: #333333;
     }
 }
 
