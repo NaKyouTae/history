@@ -97,6 +97,7 @@
     .history-wrap > div > div .desc ul > li::before {top: 1rem;}
     .history-wrap > div > div .desc ul > li > p {font-size: 1.6rem; line-height: 1.6;}
     .history-wrap > div > div .desc ul > li > a {font-size: 1.6rem; line-height: 1.6;}
+
     .history-wrap > div > div .desc ul > li > p > a {font-size: 1.6rem; line-height: 1.6;}
 }
 
@@ -117,3 +118,7 @@
     
     .intro-wrap > div > ul > li {height: 2.4rem; font-size: 1.4rem;}
 }
+
+.main header.trans {background-color: transparent;}
+.main header.trans .header-wrap .desktop > ul > li > h4 {color: var(—white);}
+.main header.trans .header-wrap .desktop > ul > li > h4 > i {background-image: url(../img/ico/ic-link-20-wh.svg);}
