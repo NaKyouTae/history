@@ -112,8 +112,6 @@
 .intro-wrap > div > ul {display: flex; align-items: center; justify-content: flex-end; column-gap: .6rem;}
 .intro-wrap > div > ul > li {height: 2.2rem; display: flex; align-items: center; justify-content: center; padding: 0 .6rem; border: 1px solid var(--blue); border-radius: .4rem; font-size: 1.2rem; font-weight: 500; color: var(--blue);}
 
-.ic-up {width: 5rem; height: 5rem; background-image: url(../img/ico/ic-up.svg); cursor: pointer;}
-
 @media screen and (max-width: 767px) {
     .intro-wrap > div > h6 {font-size: 1.8rem;}
     .intro-wrap > div > p {font-size: 1.6rem;}
