@@ -29,8 +29,8 @@ document.addEventListener("DOMContentLoaded", function(){
         if (scroll_position > 100) {
             $('.floating-wrap').addClass('up');
 
-            const deg = scroll_position - 100;
-            $('.floating-wrap .going-up').css('transform', 'rotate(' + deg + 'deg)')
+            // const deg = scroll_position - 100;
+            // $('.floating-wrap .going-up').css('transform', 'rotate(' + deg + 'deg)')
         } else {
             $('.floating-wrap').removeClass('up');
         }
